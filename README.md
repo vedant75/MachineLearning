@@ -27,7 +27,7 @@ This repository contains a Colab notebook and supporting code to reproduce a mul
     | Model                                    | Description                                | Test RMSE |
     |------------------------------------------|--------------------------------------------|----------:|
     | **Global Baseline**                      | μ + user/item biases                       | 1.0123    |
-    | **Plain MF (SVD)**                       | \(p_u^\top q_i\) (latent factors only)     | 0.9456    |
+    | **Plain MF (SVD)**                       | \($p_u^\top q_i$\) (latent factors only)     | 0.9456    |
     | **Time‑Aware MF**                        | + month‑bin biases                         | 0.9134    |
     | **Time‑Aware MF + Local CF**             | + neighborhood residual interpolation      | 0.9062    |
     | **BellKor TimeSVD++ (Netflix Prize)**    | Published on full 100 M+ ratings (probe)   | **0.8563** |

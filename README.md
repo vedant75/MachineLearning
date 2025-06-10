@@ -26,7 +26,7 @@ This repository contains a Colab notebook and supporting code to reproduce a mul
 
     | Model                                    | Description                                | Test RMSE |
     |------------------------------------------|--------------------------------------------|----------:|
-    | **Global Baseline**                      | μ + user/item biases                       | 1.0123    |
+    | **Global Baseline**                      | μ + user/item biases                       | 1.0623    |
     | **Plain MF (SVD)**                       | \($p_u^\top q_i$\) (latent factors only)     | 0.9456    |
     | **Time‑Aware MF**                        | + month‑bin biases                         | 0.9134    |
     | **Time‑Aware MF + Local CF**             | + neighborhood residual interpolation      | 0.9062    |

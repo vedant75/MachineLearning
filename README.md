@@ -45,5 +45,5 @@ All model parameters and the data‑parsing code (for the Netflix Prize dataset 
 
 1. Clone this repo:  
    ```bash
-   git clone https://github.com/your‑username/netflix-prize-recommender.git
-   cd netflix-prize-recommender
+   git clone https://github.com/vedant75/MachineLearning.git
+   cd MachineLearning
